@@ -59,4 +59,4 @@ python3 app.py
 To create a dashboard, click [here](http://127.0.0.1:8050/).
 The link should direct you to an interactive, real-time dashboard.
 
-![]<img src=Dashboard.gif width="400" height="790">
+<img src=Dashboard.gif width="1000" height="600">
