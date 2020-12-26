@@ -20,7 +20,8 @@ ACCESS_TOKEN = 'Enter Twitter access token'
 ACCESS_TOKEN_SECRET = 'Enter Twitter access token secret'
 ```
 
-Create an [AWS account](https://aws.amazon.com/rds/?did=ft_card&trk=ft_card).
+Create an [AWS account](https://aws.amazon.com/rds/?did=ft_card&trk=ft_card).  
+For information on how to set up and connect to an AWS database, click [here](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/AWS.md).
 ```
 awsDB.py
 user = 'Enter your username here'
@@ -65,4 +66,3 @@ The link should direct you to an interactive, real-time dashboard.
 
 ## Acknowledgement
 Special thanks to the Twitter organization for giving the opportunity to collect tweet data.
-                                                                     
