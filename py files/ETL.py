@@ -12,7 +12,7 @@ import re #library to use regular expression for cleaning text
 from autocorrect import Speller #corrects mispelt words
 import nltk #library to get part of speech
 from nltk import word_tokenize #library to tokenize a string
-from nltk.stem import WordNetLemmatizer
+from nltk.stem import WordNetLemmatizer # remove inflected endings
 from textblob import TextBlob #library to get text sentiment
 
 import pandas as pd #library to convert string to datetime
