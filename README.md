@@ -9,7 +9,7 @@ There are two objectives for this project:
 2. Create an interactive, real-time dashboard based on data collected from the ETL pipeline
 
 ## Getting Started
-1. Twitter Keys- Apply for a Twitter developer account [here](https://developer.twitter.com/en/apply-for-access). After dev account is approved, create an [app](https://developer.twitter.com/en/portal/apps/new) to get Twitter access keys and tokens. Input the keys and tokens into the [TwitterKeys.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/TwitterKeys.py) file.
+Apply for a Twitter developer account [here](https://developer.twitter.com/en/apply-for-access). After the request is approved, create an [app](https://developer.twitter.com/en/portal/apps/new) to get Twitter access keys and tokens. Input the keys and tokens into the [TwitterKeys.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/TwitterKeys.py) file.
 ```
 TwitterKeys.py
 CONSUMER_KEY = 'Enter Twitter consumer key'
@@ -18,7 +18,7 @@ ACCESS_TOKEN = 'Enter Twitter access token'
 ACCESS_TOKEN_SECRET = 'Enter Twitter access token secret'
 ```
 
-2. AWS Database- Create an [AWS account](https://aws.amazon.com/rds/?did=ft_card&trk=ft_card). After the
+Create an [AWS account](https://aws.amazon.com/rds/?did=ft_card&trk=ft_card).
 ```
 awsDB.py
 user = 'Enter your username here'
@@ -29,18 +29,18 @@ port = '3306'
 table = 'Entire desired table name here'
 ```
 
-3. Install modules with the following command in your terminal: 
+Install modules with the following command in your terminal: 
 ```
 pip install -r requirements.txt
 ```
 
-4. Replace the KEYWORD string value from [settings.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/settings.py) with the word you want in tweets. 
+Replace the KEYWORD string value from [settings.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/settings.py) with the word you want in tweets. 
 ```
 settings.py
 KEYWORD = 'Enter desired word to stream'
 ```
 
-5. You have the option to add, remove, or change key-value pairs in [dictionary.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/dictionary.py). Similarly, you can add or remove words in the list from [stopwords.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/stopwords.py).
+You have the option to add, remove, or change key-value pairs in [dictionary.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/dictionary.py). Similarly, you can add or remove words in the list from [stopwords.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/stopwords.py).
 
 
 ## Metric 
