@@ -8,28 +8,43 @@ There are two objectives for this project:
 1. Build an ETL pipeline
 2. Create an interactive, real-time dashboard based on data collected from the ETL pipeline
 
-## Approach
+## Getting Started
+1. Twitter Keys- Apply for a Twitter developer account [here](https://developer.twitter.com/en/apply-for-access). After dev account is approved, create an [app](https://developer.twitter.com/en/portal/apps/new) to get Twitter access keys and tokens. Input the keys and tokens into the [TwitterKeys.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/TwitterKeys.py) file.
+```
+TwitterKeys.py
+CONSUMER_KEY = 'Enter Twitter consumer key'
+CONSUMER_SECRET = 'Enter Twitter consumer secret'
+ACCESS_TOKEN = 'Enter Twitter access token'
+ACCESS_TOKEN_SECRET = 'Enter Twitter access token secret'
+```
 
-## Installation
+2. AWS Database- Create an [AWS account](https://aws.amazon.com/rds/?did=ft_card&trk=ft_card). After the
+```
+awsDB.py
+user = 'Enter your username here'
+password = 'Enter your AWS password here'
+db = 'Enter database name here'
+host = 'Enter host link here'
+port = '3306'
+table = 'Entire desired table name here'
+```
 
+3. Install modules with the following command in your terminal: 
 ```
 pip install -r requirements.txt
 ```
 
+4. Replace the KEYWORD string value from [settings.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/settings.py) with the word you want in tweets. 
+```
+settings.py
+KEYWORD = 'Enter desired word to stream'
+```
+
+5. You have the option to add, remove, or change key-value pairs in [dictionary.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/dictionary.py). Similarly, you can add or remove words in the list from [stopwords.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/stopwords.py).
+
+
 ## Metric 
 A cost function was used as the evaluation metric for this project. The optimal threshold was chosen based on the highest savings.
-
-## Approach
-The following steps were taken to complete the project:
-1. Import libraries and dataset
-3. Exploratory Data Analysis
-4. Feature Engineering
-5. Feature Selection
-6. Data Wrangling
-7. Base Scores Model Evaluation
-8. Hyperparameter Tuning
-9. Model Selection
-10. Cost Function
 
 ## Model Selection
 Four models were trained through three methods:
