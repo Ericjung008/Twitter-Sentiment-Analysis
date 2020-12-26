@@ -9,7 +9,9 @@ There are two objectives for this project:
 2. Create an interactive, real-time dashboard based on data collected from the ETL pipeline
 
 ## Getting Started
-Apply for a Twitter developer account [here](https://developer.twitter.com/en/apply-for-access). After the request is approved, create an [app](https://developer.twitter.com/en/portal/apps/new) to get Twitter access keys and tokens. Input the keys and tokens into the [TwitterKeys.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/TwitterKeys.py) file.
+Apply for a Twitter developer account [here](https://developer.twitter.com/en/apply-for-access).  
+After the request is approved, create an [app](https://developer.twitter.com/en/portal/apps/new) to get Twitter access keys and tokens.   
+Input the keys and tokens into the [TwitterKeys.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/TwitterKeys.py) file.
 ```
 TwitterKeys.py
 CONSUMER_KEY = 'Enter Twitter consumer key'
@@ -56,7 +58,7 @@ Open another terminal terminal window and run the following command:
 ```
 python3 app.py
 ```
-To create a dashboard, click [here](http://127.0.0.1:8050/).
+To view your dashboard, click [here](http://127.0.0.1:8050/).
 The link should direct you to an interactive, real-time dashboard.
 
 <img align="center" src="Dashboard.gif" width="100%"/>
