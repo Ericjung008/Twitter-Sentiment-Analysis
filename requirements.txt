@@ -1,3 +1,5 @@
+#modules and versions to install
+
 pandas==0.25.1
 tweepy==3.8.0
 re==2.2.1
