@@ -58,4 +58,7 @@ python3 app.py
 ```
 To create a dashboard, click [here](http://127.0.0.1:8050/).
 The link should direct you to an interactive, real-time dashboard.
-<iframe src="https://giphy.com/embed/HAFPi1hpW5ueALuhjf" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/HAFPi1hpW5ueALuhjf">via GIPHY</a></p>
+
+<p align="center">
+<img align="center" src=""dashboard.gif" width="100%" alt="dashboard"/>
+</p>
