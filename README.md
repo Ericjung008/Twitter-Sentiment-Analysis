@@ -40,27 +40,22 @@ settings.py
 KEYWORD = 'Enter desired word to stream'
 ```
 
-You have the option to add, remove, or change key-value pairs in [dictionary.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/dictionary.py). Similarly, you can add or remove words in the list from [stopwords.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/stopwords.py).
+You have the option to add, remove, or change key-value pairs in [dictionary.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/dictionary.py).  
+Similarly, you can add or remove words in the list from [stopwords.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/stopwords.py).
 
+## Data
+On your terminal, run the following command:
+```
+python3 ETL.py
+```
 
-## Metric 
-A cost function was used as the evaluation metric for this project. The optimal threshold was chosen based on the highest savings.
+This will extract tweet data only if certain conditions are met. Next, the raw data will be cleaned and new features will be engineered. Finally, the transformed data will be loaded into a SQL database.
 
-## Model Selection
-Four models were trained through three methods:
-1. No Sampling
-2. Undersampling
-3. Oversampling
+## Dashboard
+Open another terminal and run the following command:
+```
+python3 app.py
+```
+To create a dashboard, click [here](http://127.0.0.1:8050/).
+The link should direct you to an interactive, real-time dashboard.
 
-The model was chosen based on the highest Average Precision score.
-
-## Technologies
-Application: Jupyter Notebook<br>
-Programming Language: Python 3.7.4<br>
-Libraries: Numpy, Pandas, Scipy, Matplotlib, Seaborn, Scikit-learn, XGBoost, Imblearn<br>
-
-## Project Files
-* [README](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/README.md)
-* [Notebook]()
-* [Train Dataset](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/Twitter.csv)
-* [Modules to Download](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/requirements.txt)
