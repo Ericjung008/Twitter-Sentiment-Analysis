@@ -44,7 +44,7 @@ You have the option to add, remove, or change key-value pairs in [dictionary.py]
 Similarly, you can add or remove words in the list from [stopwords.py](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/py%20files/stopwords.py).
 
 ## Data
-On your terminal, run the following command:
+On a terminal window, run the following command:
 ```
 python3 ETL.py
 ```
@@ -52,13 +52,15 @@ python3 ETL.py
 This will extract tweet data only if certain conditions are met. Next, the raw data will be cleaned and new features will be engineered. Finally, the transformed data will be loaded into a SQL database.
 
 ## Dashboard
-Open another terminal and run the following command:
+Open another terminal terminal window and run the following command:
 ```
 python3 app.py
 ```
 To create a dashboard, click [here](http://127.0.0.1:8050/).
 The link should direct you to an interactive, real-time dashboard.
 
-<p align="center">
-<img align="center" src=""dashboard.gif" width="100%" alt="dashboard"/>
-</p>
+<img align="center" src="Dashboard.gif" width="100%"/>
+
+## Acknowledgement
+Special thanks to the Twitter organization for giving the opportunity to collect tweet data.
+                                                                     
