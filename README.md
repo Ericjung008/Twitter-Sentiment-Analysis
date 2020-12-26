@@ -1,7 +1,7 @@
 # Twitter-Sentiment-Analysis
 
 ## Introduction
-Due to the high volume of tweets posted everday, Twitter is an excellent source to collect product reviews about Xbox. The tweets are then used to assist stakeholders into making insightful decisions to improve customer satisfaction.
+Due to the high volume of tweets posted everyday, Twitter is an excellent source to collect product reviews about Xbox. Since Twitter is a social media platform, the data will consist of many internet slang, incomplete information, and misinformation. Analyzing these type of data can lead to poor business decisions. However, after the raw data is properly handled, tweets can be represented in such a way to assist stakeholders into making insightful decisions and improve customer satisfaction.
 
 ## Objective
 There are two objectives for this project:
