@@ -1,12 +1,20 @@
 # Twitter-Sentiment-Analysis
 
 ## Introduction
-Due to the high volume of tweets posted everyday, Twitter is an excellent source to collect product reviews about Xbox. Since Twitter is a social media platform, the data will consist of many internet slang, incomplete information, and misinformation. Analyzing these type of data can lead to poor business decisions. However, after the raw data is properly handled, tweets can be represented in such a way to assist stakeholders into making insightful decisions and improve customer satisfaction.
+Due to the high volume of tweets posted everyday, Twitter is an excellent source to collect product reviews about Xbox. Since Twitter is a social media platform, the data will consist of many internet slang, incomplete information, and misinformation. Analyzing these type of data leads to poor business results. However, after the raw data is properly handled, tweets can be represented in such a way to assist stakeholders into making insightful decisions and improve customer satisfaction.
 
 ## Objective
 There are two objectives for this project:
 1. Build an ETL pipeline
 2. Create an interactive, real-time dashboard based on data collected from the ETL pipeline
+
+## Approach
+
+## Installation
+
+```
+pip install -r requirements.txt
+```
 
 ## Metric 
 A cost function was used as the evaluation metric for this project. The optimal threshold was chosen based on the highest savings.
@@ -37,6 +45,7 @@ Programming Language: Python 3.7.4<br>
 Libraries: Numpy, Pandas, Scipy, Matplotlib, Seaborn, Scikit-learn, XGBoost, Imblearn<br>
 
 ## Project Files
-* [README](https://github.com/Ericjung008/Device-Failure/blob/master/README.md)
-* [Project](https://github.com/Ericjung008/Device-Failure/blob/master/Device%20Failure%20Prediction.ipynb)
-* [Dataset](https://github.com/Ericjung008/Device-Failure/blob/master/failures.csv)
+* [README](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/README.md)
+* [Notebook]()
+* [Train Dataset](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/Twitter.csv)
+* [Modules to Download](https://github.com/Ericjung008/Twitter-Sentiment-Analysis/blob/main/requirements.txt)
