@@ -2,15 +2,13 @@
 
 pandas==0.25.1
 tweepy==3.8.0
-re==2.2.1
 autocorrect==1.1.0
 nltk==3.4.5
 textblob==0.15.3
 mysql-connector-python==8.0.22
 plotly==4.9.0
-sklearn==0.22.2.post1
-logging==0.5.1.2
+scikit-learn==0.22.2.post1
 dash==1.11.0
-dash_core_components==1.9.0
+dash_core_components==1.9.1
 dash_html_components==1.0.3
 dash_bootstrap_components==0.10.3
