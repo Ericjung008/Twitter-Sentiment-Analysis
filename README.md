@@ -55,7 +55,7 @@ python3 ETL.py
 This will extract tweet data only if certain conditions are met. Next, the raw data will be cleaned and new features will be engineered. Finally, the transformed data will be loaded into a SQL database.
 
 ## Dashboard
-Open another terminal terminal window and run the following command:
+Open another terminal window and run the following command:
 ```
 python3 app.py
 ```
