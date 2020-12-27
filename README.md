@@ -65,7 +65,7 @@ The link should direct you to an interactive, real-time dashboard.
 <img align="center" src="Dashboard.gif" width="100%"/>
 
 ## Notebook
-To view interactive visualizations in the jupyter notebook, please click [here](https://nbviewer.jupyter.org/github/Ericjung008/Twitter-Sentiment-Analysis/blob/main/Twitter%20Sentiment%20Analysis.ipynb).
+To view interactive visualizations in the jupyter notebook, please click [here](https://nbviewer.jupyter.org/github/Ericjung008/Twitter-Sentiment-Analysis/blob/main/Twitter%20Sentiment%20Analysis.ipynb).  
 **Note: The choropleth map is not rendering properly in nbviewer. Looking into how this issue can be solved.**
 
 ## Acknowledgement
