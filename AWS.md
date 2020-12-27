@@ -9,13 +9,13 @@
 4. Proceed by clicking on **Create security group**. <br> <br> <img width="100%" alt="Screen Shot 2020-12-26 at 4 21 41 PM" src="https://user-images.githubusercontent.com/51253177/103161429-91b29b00-4796-11eb-868a-1aa461f9d54d.png">
 
 5. Enter the following sections and create a security group:
-* **Security group name**
-* **Description**
-* Under **Inbound** rules:  
-a. **Type**- Set to MYSQL/Aurora.   
-b. **Source**- Enter IP address with a "/32" at the end. To view your IP address, [click here](http://checkip.amazonaws.com/).
-* Under **Outbound** rules:  
-a. **Source**- Enter IP address with a "/32" at the end. To view your IP address, [click here](http://checkip.amazonaws.com/).
+   * **Security group name**
+   * **Description**
+   * Under **Inbound** rules:  
+     - **Type**- Set to MYSQL/Aurora.   
+     - **Source**- Enter IP address with a "/32" at the end. To view your IP address, [click here](http://checkip.amazonaws.com/).
+   * Under **Outbound** rules:  
+     - **Source**- Enter IP address with a "/32" at the end. To view your IP address, [click here](http://checkip.amazonaws.com/).
 
 6. Under the **Services** section from step 1, click on **RDS** under the **Database** section. <br> <br> <img width="240" alt="Screen Shot 2020-12-26 at 3 02 52 PM" src="https://user-images.githubusercontent.com/51253177/103160573-cd943300-478b-11eb-86e7-95687111f252.png">
 
@@ -24,15 +24,15 @@ a. **Source**- Enter IP address with a "/32" at the end. To view your IP address
 8. Click on **Create Database** on the page that populates. <br> <br> <img width="100%" alt="Screen Shot 2020-12-26 at 3 17 02 PM" src="https://user-images.githubusercontent.com/51253177/103160793-ab9bb000-478d-11eb-8936-6e8ae2ce220c.png">
 
 9. Follow these steps to create a database:
-* Under **Engine Options**, change **Engine Type** to MySql
-* Change to **Free tier** under **Templates**
-* Under **Settings**:  
-a. **DB instance identifier**- Enter a database name you would like.  
-b. **Master username**- Create a username. The username will be the user value in the awsDB python file.    
-c. **Master password**- Create a password. The password will be the password value in the awsDB python file.
-* Under **Connectivity**:  
-a. Change **Public Access** from No to Yes.  
-b. Change the **Existing VPC security groups** from default to the security group created in step 5.
-* Under **Additional configuration**, set desired name for the **Initial database name** section. This will be the db value in the awsDB python file.
+   * Under **Engine Options**, change **Engine Type** to MySql
+   * Change to **Free tier** under **Templates**
+   * Under **Settings**:  
+     - **DB instance identifier**- Enter a database name you would like.  
+     - **Master username**- Create a username. The username will be the user value in the awsDB python file.    
+     - **Master password**- Create a password. The password will be the password value in the awsDB python file.
+   * Under **Connectivity**:  
+     - Change **Public Access** from No to Yes.  
+     - Change the **Existing VPC security groups** from default to the security group created in step 5.
+   * Under **Additional configuration**, set desired name for the **Initial database name** section. This will be the db value in the awsDB python file.
 
 10. After the database is created, the host and port values can be obtained by going to the page from taking step 7. From there, click, on the name of the database you created. In the **Connectivity & security section**, the **Endpoint** will be the host value, and the port number should be shown right below.
