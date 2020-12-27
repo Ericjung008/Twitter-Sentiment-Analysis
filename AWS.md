@@ -1,6 +1,6 @@
 ### Guide on how to set up and connect to an AWS database
 
-1. After logging into your AWS account, click on **Services** on the top left portion of the screen. <br> <img width="100%" alt="Screen Shot 2020-12-26 at 2 56 09 PM" src="https://user-images.githubusercontent.com/51253177/103160505-f667f880-478a-11eb-8a58-e88a551cc4a5.png">
+1. After logging into your AWS account, click on **Services** on the top left portion of the screen. <br> <br> <img width="100%" alt="Screen Shot 2020-12-26 at 2 56 09 PM" src="https://user-images.githubusercontent.com/51253177/103160505-f667f880-478a-11eb-8a58-e88a551cc4a5.png">
 
 2. Click on **EC2** under **Compute**. <br> <img width="240" alt="Screen Shot 2020-12-26 at 3 31 11 PM" src="https://user-images.githubusercontent.com/51253177/103160920-90ca3b00-478f-11eb-8210-532ad938da35.png">
 
@@ -12,7 +12,7 @@
 * **Security group name**
 * **Description**
 * Under **Inbound** rules:  
-a. **Type**- Set to MYSQL/Aurora. 
+a. **Type**- Set to MYSQL/Aurora.   
 b. **Source**- Enter IP address with a "/32" at the end. To view your IP address, [click here](http://checkip.amazonaws.com/).
 * Under **Outbound** rules:  
 a. **Source**- Enter IP address with a "/32" at the end. To view your IP address, [click here](http://checkip.amazonaws.com/).
