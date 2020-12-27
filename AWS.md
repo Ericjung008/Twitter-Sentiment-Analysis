@@ -2,7 +2,8 @@
 
 1. After logging into your AWS account, click on Services on the top left portion of the screen. <img width="100%" alt="Screen Shot 2020-12-26 at 2 56 09 PM" src="https://user-images.githubusercontent.com/51253177/103160505-f667f880-478a-11eb-8a58-e88a551cc4a5.png">
 
-2. Click on EC2 under Compute. <img width="203" alt="Screen Shot 2020-12-26 at 3 31 11 PM" src="https://user-images.githubusercontent.com/51253177/103160920-90ca3b00-478f-11eb-8210-532ad938da35.png">
+2. Click on EC2 under Compute. 
+* <img width="203" alt="Screen Shot 2020-12-26 at 3 31 11 PM" src="https://user-images.githubusercontent.com/51253177/103160920-90ca3b00-478f-11eb-8210-532ad938da35.png">
 
 3. Look for the Database section and click on RDS. <img width="240" alt="Screen Shot 2020-12-26 at 3 02 52 PM" src="https://user-images.githubusercontent.com/51253177/103160573-cd943300-478b-11eb-86e7-95687111f252.png">
 
